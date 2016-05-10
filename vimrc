@@ -11,6 +11,7 @@ endif
 " ================ General Config ====================
 
 set number                      "Line numbers are good
+set relativenumber              "Relative line numbers are even better
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
 set showcmd                     "Show incomplete cmds down the bottom
@@ -26,10 +27,11 @@ set hidden
 
 "turn on syntax highlighting
 syntax on
+set t_Co=256
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x
-" The mapleader has to be set before vundle starts loading all 
+" The mapleader has to be set before vundle starts loading all
 " the plugins.
 let mapleader=","
 
@@ -60,9 +62,9 @@ endif
 set autoindent
 set smartindent
 set smarttab
-set shiftwidth=2
-set softtabstop=2
-set tabstop=2
+set shiftwidth=4
+set softtabstop=4
+set tabstop=8
 set expandtab
 
 " Auto indent pasted text
