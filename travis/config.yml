@@ -1,0 +1,17 @@
+---
+last_check:
+  etag: '"c54bf44fa8d12d639732101df6efa7a9"'
+  version: 1.8.8
+  at: 1491928117
+checked_completion: true
+completion_version: 1.8.8
+endpoints:
+  https://api.travis-ci.org/:
+    access_token: sPEK_tKvlBo9KiuUii6PAw
+  https://api.travis-ci.com/:
+    access_token: mrL2eKfVHQQuv7I7NCrAow
+repos:
+  appneta/ssltunnel:
+    endpoint: https://api.travis-ci.com/
+  appneta/pvc-appliance:
+    endpoint: https://api.travis-ci.com/

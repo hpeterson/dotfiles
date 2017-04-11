@@ -89,11 +89,13 @@
   # svn helpers
   svnr = svn rebase
   svnd = svn dcommit
-  svnl = svn log --oneline --show-commit
+    svnl = svn log --oneline --show-commit
+[fetch]
+  fetch = +refs/tags/*:refs/tags/*
 [format]
   pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
 [difftool]
-    prompt = false
+  prompt = false
 [difftool "meld"]
   keepbackup=false
 [mergetool]
