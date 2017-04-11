@@ -1,0 +1,17 @@
+python
+import sys, os
+<<<<<<< HEAD
+sys.path.insert(0, '/home/fklassen/.gdb_printers/python')
+=======
+sys.path.insert(0, os.environ['HOME'] + '/.gdb_printers/python')
+>>>>>>> f9dd8851061dfe55064f7b58fb8d2c5230fd09ae
+from libstdcxx.v6.printers import register_libstdcxx_printers
+register_libstdcxx_printers (None)
+end
+set print pretty on
+set print object on
+set print static-members on
+set print vtbl on
+set print demangle on
+set demangle-style gnu-v3
+set print sevenbit-strings off
