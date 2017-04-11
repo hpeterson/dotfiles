@@ -99,10 +99,9 @@
 [difftool "meld"]
   keepbackup=false
 [mergetool]
-    prompt = false
+  prompt = false
 #[mergetool "mvimdiff"]
-#  cmd="mvim -c 'Gdiff' $MERGED"     # use fugitive.vim for 3-way merge
-#  keepbackup=false
+  #cmd="mvim -c 'Gdiff' $MERGED"     # use fugitive.vim for 3-way merge
 [mergetool "meld"]
   keepbackup=false
 [merge]
