@@ -27,6 +27,7 @@ set hidden
 
 "turn on syntax highlighting
 syntax on
+set title
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x

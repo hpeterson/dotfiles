@@ -69,6 +69,7 @@ alias ve='vim ~/.vimrc'
 alias ze='vim ~/.zshrc'
 
 # Git Aliases
+alias galiases='git config -l | grep alias | cut -c 7-'
 alias gs='git status'
 alias gstsh='git stash'
 alias gst='git stash'
@@ -100,8 +101,10 @@ alias gra='git rebase --abort'
 alias ggrc='git rebase --continue'
 alias gbi='git rebase --interactive'
 alias gl='git l'
-alias glg='git l'
+alias gld="git log --pretty=format:'%C(yellow)%h%C(reset) - %an [%C(green)%ar%C(reset)] %s'"
 alias glf='git l --pretty=full'
+alias gls='git log --stat --decorate --source -p'
+alias glhistg="git log --graph --pretty=format:'%C(yellow)%h%C(bold white red)%d%Creset %s %C(bold green)%cr %Creset%C(white)%an' --abbrev-commit --date=relative"
 alias glog='git l'
 alias co='git co'
 alias gf='git fetch'

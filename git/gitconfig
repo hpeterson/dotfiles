@@ -41,6 +41,7 @@
   cp = cherry-pick -x               # grab a change from a branch
 
   # diff
+  diff = diff --ignore-space-at-eol -b -w --ignore-blank-lines
   d = diff                          # diff unstaged changes
   dc = diff --cached                # diff staged changes
   last = diff HEAD^                 # diff last committed change
@@ -64,6 +65,7 @@
 
   # remote
   r = remote -v                     # show remotes (verbose)
+  update = !git fetch upstream && git rebase upstream/`git rev-parse --abbrev-ref HEAD`
 
   # reset
   unstage = reset HEAD              # remove files from index (tracking)
