@@ -11,7 +11,7 @@
 [![Join the chat at https://gitter.im/skwp/dotfiles](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/skwp/dotfiles?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Fast path: ensure *rake*, *curl* and *zsh* are installed, then run ...
-#### sh -c "\`curl -fsSL https://raw.githubusercontent.com/fklassen/dotfiles/master/install.sh \`"
+#### sh -c "\`curl -fsSL https://raw.githubusercontent.com/hpeterson/dotfiles/master/install.sh \`"
 
 **Always be sure to run `rake update` after pulling to ensure plugins are updated**
 
