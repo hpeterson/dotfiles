@@ -38,6 +38,7 @@ if [[ $platform == 'linux' ]]; then
 elif [[ $platform == 'darwin' ]]; then
   alias ll='ls -alGh'
   alias ls='ls -Gh'
+  alias meld='/Applications/Meld.app/Contents/MacOS/Meld'
 fi
 
 # show me files matching "ls grep"
